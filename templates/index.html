@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome | ML Prediction App</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container center">
+    <h1>Welcome to the ML Prediction App</h1>
+    <p>Use this app to make predictions using your trained model.</p>
+    <a href="{{ url_for('predict_datapoint') }}" class="btn">Go to Prediction Page</a>
+  </div>
+</body>
+</html>
